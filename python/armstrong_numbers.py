@@ -1,4 +1,3 @@
-# How can you make this more scalable and reusable later?
 
 def is_armstrong_number(number):
     """
@@ -6,7 +5,7 @@ def is_armstrong_number(number):
 
     Args:
         number (int): The number
-        
+
     Returns:
         bool: True if the given number is an Armstrong number
     """
