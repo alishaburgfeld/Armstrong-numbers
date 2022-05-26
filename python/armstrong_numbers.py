@@ -10,7 +10,7 @@ def is_armstrong_number(number):
         bool: True if the given number is an Armstrong number
     """
 
-    return number == sum(int(digit) ** len(str(number)) for digit in str(number))
+
 
 
 def find_armstrong_numbers(numbers):
@@ -24,4 +24,4 @@ def find_armstrong_numbers(numbers):
         list[int]: List of Armstrong numbers
     """
 
-    return [number for number in numbers if is_armstrong_number(number)]
+
