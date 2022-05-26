@@ -7,17 +7,17 @@ function createArrayOfNum(maxValue) {
   return Array.apply(null, { length: maxValue }).map(Number.call, Number);
 }
 
-test("shold return true for armstrong numbers", () => {
-  expect(arm.isArmstrongNumber(5)).toBe(true);
-  expect(arm.isArmstrongNumber(8)).toBe(true);
-  expect(arm.isArmstrongNumber(9)).toBe(true);
-  expect(arm.isArmstrongNumber(3)).toBe(true);
-  expect(arm.isArmstrongNumber(153)).toBe(true);
-  expect(arm.isArmstrongNumber(100)).toBe(false);
-  expect(arm.isArmstrongNumber(125)).toBe(false);
-  expect(arm.isArmstrongNumber(200)).toBe(false);
-  expect(arm.isArmstrongNumber(150)).toBe(false);
-});
+// test("shold return true for armstrong numbers", () => {
+//   expect(arm.isArmstrongNumber(5)).toBe(true);
+//   expect(arm.isArmstrongNumber(8)).toBe(true);
+//   expect(arm.isArmstrongNumber(9)).toBe(true);
+//   expect(arm.isArmstrongNumber(3)).toBe(true);
+//   expect(arm.isArmstrongNumber(153)).toBe(true);
+//   expect(arm.isArmstrongNumber(100)).toBe(false);
+//   expect(arm.isArmstrongNumber(125)).toBe(false);
+//   expect(arm.isArmstrongNumber(200)).toBe(false);
+//   expect(arm.isArmstrongNumber(150)).toBe(false);
+// });
 
 test("should find armstrong numbers", () => {
   expect(shallowEqualArrays(arm.findArmstrongNumbers([0]), [0])).toBe(true);
